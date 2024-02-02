@@ -1,0 +1,21 @@
+block level elements stack on top of each other and are displayed in seperate new lines and margins, heights and paddings can be applied on them.
+
+inline elements for eg. <div> are not displayed in new lines but are displayed in the same line they are used in.(mainly inside of block  level elements). Margins paddings etc. cannot be applied on them.
+
+inline-block elements are a hybrid. they are used as inline objects but margins and paddings etc. can be apploed to them.
+
+"block", "inline","inline-block" are known as Display Types.
+
+
+columns
+
+columns are self explanatory
+
+mostly used as classes in section element.
+
+column-count is used to define number of columns
+
+column-width is the minimum width for a single column.if the space given is double of column width then there will be 2 columns if required etc.
+
+for changing the formatting of text in the columns as for eg. margins of texts in columns we use p elements of column class eg. .column p{...} 
+
