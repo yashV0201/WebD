@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    background-color: #11111C;
+    color:aliceblue;
+    height:70px;
+    display:flex;
+}
+
+.nav-logo{
+   
+    display:flex;
+    /* background-color: red; */
+    width:22.5%;
+    height:100%;
+    margin-left:40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    
+    font-size: 1.1rem;
+    font-family: 'FONTSPRING DEMO - Biennale Light';
+    
+
+}
+
+.nav-items{
+    width:100%;
+    /* background-color: blue; */
+}
+
+.items{
+    display: flex;
+    margin-left:200px;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.items a{
+    font-family: 'Gilroy';
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:70px;
+    margin-left:20px;
+    margin-right:40px;
+    text-decoration:none;
+}
+
+.items a:hover{
+    color:rgba(240, 248, 255, 0.668);
+}
+
+.items a:visited{
+    color:aliceblue;
+}
