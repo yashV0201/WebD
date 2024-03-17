@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DoOM Projectst</title>
+    <title>DOM Projectst</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <p>YouTube Subscribe button</p>
     <button onclick="
         subscribe();
-    " class="js-subscribe-button">Subscribe</button>
+    " class="js-subscribe-button subscribe-button">Subscribe</button>
+
+    <p>Amazon Shipping Calculator</p>
+    <input placeholder="Cost of Order" class = 'js-cost-input cost-input' onkeydown="
+        handleCostKeyDown(event)
+    ">
+    <button onclick="
+        calculateTotal()
+    " class="calculate-button">Calculate</button>
+    <p class="js-total-cost"></p>
 
 
     <script src = "app.js"></script>
