@@ -10,12 +10,16 @@ function renderTodoList(){
         const date =todoObject.date;
 
         const html = 
-                `<div>${name}</div>
-                <div>${date}</div> 
+                `<div class="bg-yellow-100 p-5 rounded h-[200px] w-[200px] drop-shadow-lg">
+                <div class="flex justify-between text-gray-500">
+                <div class = "text-[0.9rem]"><i>${date}</i></div>
                 <button onclick="
                     todoList.splice(${i},1);
                     renderTodoList();
-                " class = 'delete-button'>Delete</button>`
+                " class = 'delete-button hover:text-red-400'><i class="fa-solid fa-trash"></i></button>
+                </div>
+                <div class="text-gray-500">${name}</div>
+                </div>`
                 ;
         todoListHTML += html;
     }
