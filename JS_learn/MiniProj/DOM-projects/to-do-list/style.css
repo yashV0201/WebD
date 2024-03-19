@@ -1,10 +1,15 @@
-body{
-    font-family:arial;
+html{
+    font-family: "IBM PLex Sans", sans-serif;
 }
 
-.todo-grid, .todo-grid-input{
+/* body{
+    font-family:arial;
+}
+*/
+
+.todo-grid{
     display: grid;
-    grid-template-columns: 200px 150px 100px;
+    grid-template-columns: 200px 200px auto;
     column-gap: 10px;
     row-gap: 10px;
     align-items:center;
@@ -27,7 +32,7 @@ body{
     font-size: 15px;
     cursor: pointer;
 }
-
+/*
 .delete-button{
     background-color: darkred;
     color: white;
@@ -36,4 +41,5 @@ body{
     cursor:pointer;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+}  */
+
