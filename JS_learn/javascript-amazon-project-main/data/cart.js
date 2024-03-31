@@ -24,4 +24,17 @@ export function addtoCart(productId){
                 });
                 
             }
+
 } 
+
+export function removeFromCart(productId){
+    const newArr=[];
+
+    cart.forEach((cartItem)=>{
+        if(cartItem.productId !== productId){
+            newArr.push(cartItem);
+        }
+    })
+
+    cart = newArr;
+}
