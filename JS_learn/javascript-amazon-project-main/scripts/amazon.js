@@ -1,3 +1,5 @@
+import {cart} from '../data/cart.js'
+
 
 let productHTML = '';
 
@@ -89,7 +91,6 @@ document.querySelectorAll('.js-add-to-cart')
                 cartQuantity+=cartItem.quantity;
             })
 
-            console.log(cartQuantity);
             document.querySelector('.js-cart-quantity').innerText = cartQuantity;
 
         });
